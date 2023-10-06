@@ -1,0 +1,22 @@
+
+.table{
+    position: relative;
+    top: 191px;
+    font-size: 16px;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    color: #111111; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .table td{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-style: italic;
+  }
+
+.container-table{
+    max-height: 100%;
+}
