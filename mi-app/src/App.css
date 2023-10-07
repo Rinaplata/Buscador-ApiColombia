@@ -1,4 +1,4 @@
-.App {
+/* .App {
   position: relative;
   min-width: 129vh;
   text-align: center;
@@ -6,7 +6,27 @@
   border-radius: 43px;
   transition: 0.5s;
   margin: 50px;
-  z-index: 10000000000;
+}
+ */
+
+ .App {
+  min-width: 129vh;
+  text-align: center;
+  position: relative;
+}
+
+.beautiful-title {
+  font-family: 'Georgia', serif; 
+  color: #bf935a; 
+  text-align: center; 
+  margin-top: 50px;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px; 
+  padding: 10px; 
+  background-color: #fff;
+  border-radius: 10px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
 }
 
 

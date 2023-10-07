@@ -30,14 +30,16 @@ const BuscadorComponent = () => {
   }, [])
 
   return (
-    <div className="container-table">
-      <input
+    <div className="container-table container">
+      <div className="serch">
+      <input 
         value={buscar}
         onChange={buscador}
         type="text"
-        placeholder="Serch"
+        placeholder="Buscar..."
         className="form-control"
       />
+      </div>
       <table className="table table-striped table-hover">
         <thead>
           <tr className="table-active ">
@@ -48,14 +50,19 @@ const BuscadorComponent = () => {
           </tr>
         </thead>
         <tbody>
-          {resultado.map((nativeCommuties) => (
+        {resultado.length === 0 ? (
+          <tr>
+            <td colSpan="4">No se encontraron resultados</td>
+          </tr>
+        ) : (
+          resultado.map((nativeCommuties) => (
             <tr key={nativeCommuties.id}>
               <td>{nativeCommuties.id}</td>
               <td>{nativeCommuties.name}</td>
               <td>{nativeCommuties.languages}</td>
               <td>{nativeCommuties.description}</td>
             </tr>
-          ))}
+          )))}
         </tbody>
       </table>
     </div>
