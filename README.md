@@ -1,4 +1,4 @@
-# Buscador consumiento API Colombia 
+# 🔍 Buscador -  consumiento API Colombia 
 
 ![Buscador para buscar las comunidades indigenas](/mi-app/Buscador.png)
 
@@ -6,6 +6,10 @@
 ## Descripción
 
 Este proyecto es un buscador de las comunidades indigenas de Colombia consumiento de información de [APi Colombia](https://api-colombia.com/).  Utilizando React.js para crear una interfaz de usuario y FetchAPi. 
+
+## Diapositivas de la charla 
+- [Diapositivas en PDF](/mi-app/DatosAbiertoApiColombia.pdf)
+- [Diapositivas en formato PPTX](/mi-app/DatosAbiertoApiColombia.pptx)
 
 ## Tecnologías Utilizadas
 
